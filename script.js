@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // Switch the current player
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
         statusText.textContent = `It's ${currentPlayer}'s turn`;
     };
